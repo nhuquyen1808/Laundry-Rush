@@ -1,0 +1,8 @@
+skeleton.png
+size:444,164
+filter:Linear,Linear
+bubble_1
+bounds:411,132,29,29
+offsets:1,1,31,31
+bubble_2
+bounds:2,2,407,159
