@@ -20,8 +20,9 @@ public class PopupShop : MonoBehaviour
 
     public void Show()
     {
-        shadow.enabled = true;
-        nPopup.SetActive(true);
+        Handheld.Vibrate();
+      /*  shadow.enabled = true;
+        nPopup.SetActive(true);*/
     }
 
     private void OnClickCloseButton()
