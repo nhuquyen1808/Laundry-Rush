@@ -446,7 +446,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5947131432606636200}
   - component: {fileID: 1914006855577106473}
-  - component: {fileID: 2986720595370956601}
   m_Layer: 5
   m_Name: SettingsPanel
   m_TagString: Untagged
@@ -485,31 +484,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3341020778140292244}
   m_CullTransparentMesh: 1
---- !u!114 &2986720595370956601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3341020778140292244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c001e30555dacd742ac6782b7abbe02a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settingsPanel: {fileID: 2976592427835534391}
-  npopup: {fileID: 6093603437771293531}
-  nShadow: {fileID: 2976592427835534391}
-  settingsButton: {fileID: 1465028774248969466}
-  closeButton: {fileID: 2438039496176410244}
-  homeButton: {fileID: 7346486180404596289}
-  soundButton: {fileID: 2564267108922925327}
-  musicButton: {fileID: 2769345122050145433}
-  replayButton: {fileID: 4660106007412712246}
-  soundGreenImage: {fileID: 3031413045449934312}
-  soundBlueImage: {fileID: 7119262090060339810}
-  musicGreenImage: {fileID: 6106562231007626957}
-  musicBlueImage: {fileID: 8644397289178989445}
 --- !u!1 &3789262981766358964
 GameObject:
   m_ObjectHideFlags: 0

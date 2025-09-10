@@ -1,6 +1,7 @@
 ﻿//using Cysharp.Threading.Tasks;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 public class ShopController : Singleton<ShopController>
@@ -13,12 +14,12 @@ public class ShopController : Singleton<ShopController>
 
     private async void Start()
     {
-       // await UniTask.WaitUntil(() => IAPController.Instance.IsInitialized());
-        IAPController.Instance.IsInitialized();
+        await UniTask.WaitUntil(() => IAPController.Instance.IsInitialized());
+       // IAPController.Instance.IsInitialized();
         InitializeIAP();
         InitializeItemCoins();
     }
-  /*  public async UniTask ShowShop()
+    public async UniTask ShowShop()
     {
         if (isOpen)
         {
@@ -27,13 +28,14 @@ public class ShopController : Singleton<ShopController>
         }
         Show();
         await UniTask.Delay(1000);
-    }*/
+    }
     public void Show()
     {
         shopUI.gameObject.SetActive(true);
         isOpen = true;
     }
 
+    
     public void Hide()
     {
         shopUI.gameObject.SetActive(false);

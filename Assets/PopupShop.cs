@@ -15,18 +15,31 @@ public class PopupShop : MonoBehaviour
     private void Awake()
     {
         instance = this;
+
+        /*if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }*/
         closeButton.onClick.AddListener(OnClickCloseButton);
     }
 
     public void Show()
     {
-        shadow.enabled = true;
+        Debug.Log(shadow.gameObject);
+        shadow.gameObject.SetActive(true); 
         nPopup.SetActive(true);
     }
 
     private void OnClickCloseButton()
     {
        nPopup.SetActive(false);
-       shadow.enabled = false;
+       shadow.gameObject.SetActive(false); 
+
     }
 }

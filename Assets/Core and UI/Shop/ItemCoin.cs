@@ -30,8 +30,8 @@ public class ItemCoin : MonoBehaviour
         Debug.Log($"OnSuccess: name:{gameObject.name} key:{key}");
         var coin =  PlayerPrefs.GetInt("coin", 0);
         coin += coinReceive;
-        Debug.Log(coin);
         PlayerPrefs.SetInt("coin", coin);
         CoinBar.instance.UpdateUI();
+        Debug.Log(coin);
     }
 }

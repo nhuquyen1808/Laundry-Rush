@@ -6,6 +6,7 @@ using UnityEngine.Purchasing.Extension;
 using UnityEngine.Events;
 using Unity.Services.Core;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 
 [System.Serializable]
 public class ItemIap
@@ -41,6 +42,11 @@ public class IAPController : Singleton<IAPController>, IStoreListener
 
         InitializeUnityGamingServices();
         InitializePurchasing();
+    }
+
+    private async void Start()
+    {
+      //  await UniTask.WaitUntil(() => IsInitialized());
     }
 
     public void InitializePurchasing()
