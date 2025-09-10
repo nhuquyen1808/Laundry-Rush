@@ -28,7 +28,7 @@ public class HandControlledCoinFlip : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (isFlipping && this.gameObject.GetComponent<Rigidbody>().velocity.y < 1f)
+        if (isFlipping && this.gameObject.GetComponent<Rigidbody>().linearVelocity.y < 1f)
         {
             isFlipping = false;
             float rotationY = transform.rotation.eulerAngles.z;
@@ -42,7 +42,7 @@ public class HandControlledCoinFlip : MonoBehaviour
         yield return new WaitForSeconds(2);
         transform.position = startPosition;
         transform.rotation = Quaternion.identity;
-        coinRigidbody.velocity = Vector3.zero;
+        coinRigidbody.linearVelocity = Vector3.zero;
         coinRigidbody.angularVelocity = Vector3.zero;
         isFlipping = false;
     }

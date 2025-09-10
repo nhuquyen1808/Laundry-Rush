@@ -43,7 +43,7 @@ namespace DevDuck
             {
                 if (isSpawned)
                 {
-                    _rb.velocity = new Vector2(_joystick.Direction.x * _moveSpeed * Duck.TimeMod,
+                    _rb.linearVelocity = new Vector2(_joystick.Direction.x * _moveSpeed * Duck.TimeMod,
                         _joystick.Direction.y * _moveSpeed * Duck.TimeMod);
 
                     if (handHintMove.activeSelf && isActiveHand)
@@ -60,7 +60,7 @@ namespace DevDuck
                     {
                         if (LogicGame2.instance.distanceTutPlayer())
                         {
-                            _rb.velocity = Vector2.zero;
+                            _rb.linearVelocity = Vector2.zero;
                         }
                     }
                 }
@@ -69,7 +69,7 @@ namespace DevDuck
             {
                 if (!isTrigger)
                 {
-                    _rb.velocity = Vector2.zero;
+                    _rb.linearVelocity = Vector2.zero;
                 }
             }
         }

@@ -43,7 +43,7 @@ public class LipStick : MonoBehaviour
                 KnifeHitMiniGame.instance.botScore++;
             }
 
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
             transform.SetParent(t.transform);
 
             rb.bodyType = RigidbodyType2D.Static;
@@ -87,7 +87,7 @@ public class LipStick : MonoBehaviour
             {
                 rb.gravityScale = 1;
 
-                rb.velocity = Vector2.zero; 
+                rb.linearVelocity = Vector2.zero; 
                 rb.AddForce(Vector2.down * 15, ForceMode2D.Impulse);
                 rb.AddForce(Vector2.right * 10, ForceMode2D.Impulse);
             }
@@ -95,7 +95,7 @@ public class LipStick : MonoBehaviour
             {
                 rb.gravityScale = -1;
 
-                rb.velocity = Vector2.zero; 
+                rb.linearVelocity = Vector2.zero; 
 
                 rb.AddForce(Vector2.down * 15, ForceMode2D.Impulse);
                 rb.AddForce(Vector2.right * 10, ForceMode2D.Impulse);
@@ -106,7 +106,7 @@ public class LipStick : MonoBehaviour
             if (id == -1)
             {
                 Debug.Log("????????");
-                rb.velocity = Vector2.zero; 
+                rb.linearVelocity = Vector2.zero; 
                 rb.gravityScale = 1;
                 rb.AddForce(Vector2.down * 15);
                 rb.AddForce(Vector2.right * 15);
@@ -114,7 +114,7 @@ public class LipStick : MonoBehaviour
             if (id == -2)
             {
                 rb.gravityScale = -1;
-                rb.velocity = Vector2.zero; 
+                rb.linearVelocity = Vector2.zero; 
                 rb.AddForce(Vector2.down * 15, ForceMode2D.Impulse);
                 rb.AddForce(Vector2.right * 15, ForceMode2D.Impulse);
             }

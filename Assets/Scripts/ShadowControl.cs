@@ -101,9 +101,9 @@ namespace DevDuck
             {
                 if (_joystick.Direction.y != 0)
                 {
-                    _rb.velocity = new Vector2(_joystick.Direction.x * _moveSpeed * Duck.TimeMod,
+                    _rb.linearVelocity = new Vector2(_joystick.Direction.x * _moveSpeed * Duck.TimeMod,
                         _joystick.Direction.y * _moveSpeed * Duck.TimeMod);
-                    _rbHandMachine.velocity = new Vector2(_joystick.Direction.x * _moveSpeed * Duck.TimeMod,
+                    _rbHandMachine.linearVelocity = new Vector2(_joystick.Direction.x * _moveSpeed * Duck.TimeMod,
                         _joystick.Direction.y * 0 * Duck.TimeMod);
                     //  Debug.Log(_joystick.Direction);
                     SetTwoDirectionUI();
@@ -117,8 +117,8 @@ namespace DevDuck
                 }
                 else
                 {
-                    _rb.velocity = Vector2.zero;
-                    _rbHandMachine.velocity = Vector2.zero;
+                    _rb.linearVelocity = Vector2.zero;
+                    _rbHandMachine.linearVelocity = Vector2.zero;
                     SetDefaultUI();
                 }
             }
