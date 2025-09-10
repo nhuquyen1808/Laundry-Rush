@@ -34,7 +34,7 @@ namespace DevDuck
             if (Vector2.Distance(rb.position, des) < 0.1f && !isOnDes)
             {
                 isOnDes = true;
-                rb.velocity = Vector2.zero;
+                rb.linearVelocity = Vector2.zero;
                 rb.angularVelocity = 0f;
                 LogicGame4.instance.HideShadow(id);
                 SpriteRenderer spr = this.GetComponent<SpriteRenderer>();

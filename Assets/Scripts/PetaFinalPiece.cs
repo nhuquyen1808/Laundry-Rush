@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 namespace DevDuck

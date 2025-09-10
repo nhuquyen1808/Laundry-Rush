@@ -31,7 +31,7 @@ namespace DevDuck
             if (hit.collider != null)
             {
                 float distance = Vector3.Distance(transform.position, hit.point);
-                if (distance < 0.55f && rb.velocity.y < 0.2f)
+                if (distance < 0.55f && rb.linearVelocity.y < 0.2f)
                 {
                     isJumping = false;
                     this.transform.SetParent(hit.collider.transform.parent);
