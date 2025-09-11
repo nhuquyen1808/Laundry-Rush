@@ -1,6 +1,7 @@
 using System;
 using DG.Tweening;
 using System.Collections.Generic;
+using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -24,7 +25,7 @@ namespace DevDuck
         [SerializeField] List<Sprite> giftColor = new List<Sprite>();
         [SerializeField] List<GameObject> giftObjects = new List<GameObject>();
         [SerializeField] private GameObject redBox, greenBox, tubeIns;
-        [SerializeField] int redCount, greenCount;
+        [HideInInspector] int redCount, greenCount;
         [SerializeField] TextMeshProUGUI redCountTxt, greenCountTxt;
         float timer;
         [SerializeField] ObjectPool objectPool;
@@ -34,9 +35,12 @@ namespace DevDuck
 
         public GameObject settingButton;
 
-        public float totalTimer;
+        [HideInInspector] public float totalTimer;
         int target;
         public LevelDataGame levelDataGame;
+        
+        public List<Sprite>  letterSprList = new List<Sprite>();
+        public List<Sprite>  numbersSprList = new List<Sprite>();
 
         private void Awake()
         {
@@ -60,7 +64,7 @@ namespace DevDuck
             Observer.AddObserver(EventAction.EVENT_GET_GREEN, GetGreenGift);
             Observer.AddObserver(EventAction.EVENT_GET_RED, GetRedGift);
         }
-        [SerializeField] int currentLevel;
+        [HideInInspector] int currentLevel;
         public void SetData()
         {
              currentLevel = PlayerPrefs.GetInt("CurrentLevel");
@@ -166,10 +170,13 @@ namespace DevDuck
             if (id == 0)
             {
                 o.GetComponent<GiftLevel6>().type = TYPEITEM8.RED;
+                o.GetComponent<SpriteRenderer>().sprite = GetLetterSpr();
             }
             else
             {
                 o.GetComponent<GiftLevel6>().type = TYPEITEM8.GREEN;
+                o.GetComponent<SpriteRenderer>().sprite = GetNumberSpr();
+
             }
 
             o.transform.SetParent(this.transform);
@@ -257,6 +264,17 @@ namespace DevDuck
                 AudioManager.instance.PlaySound("Win");
 
             }
+        }
+
+        public Sprite GetLetterSpr()
+        {
+            int index = Random.Range(0, letterSprList.Count);
+            return letterSprList[index];
+        }
+        public Sprite GetNumberSpr()
+        {
+            int index = Random.Range(0, numbersSprList.Count);
+            return numbersSprList[index];
         }
     }
 }

@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: LaundryRushStudio
-  productName: Laundry Rush
+  companyName: SmartSortStudio
+  productName: Smart Sort Letters To Numbers
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -140,7 +140,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.0.6
+  bundleVersion: 1.0.2
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -163,7 +163,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.LaundryRushStudio.LaundryRush
+    Android: com.SmartSortStudio.SmartSortLettersToNumbers
     Standalone: com.Unity-Technologies.com.unity.template.urp-blank
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
@@ -172,7 +172,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
-  AndroidBundleVersionCode: 6
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 35
   AndroidPreferredInstallLocation: 1
@@ -266,7 +266,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 11
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: E:/_ANH CHUNG NON/Keys/Laundry_Rush_Release_04_09_2025.keystore
+  AndroidKeystoreName: E:/_ANH CHUNG NON/Keys/SmartSort_LetterToNumber_11_09.keystore
   AndroidKeyaliasName: 0399978748
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidEnableArm64MTE: 0
@@ -292,7 +292,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 232852ed8f4bbc9488acef0e39b0feeb, type: 3}
+      m_Icon: {fileID: 2800000, guid: 5c530cc906f448e47af5a71a31353308, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -523,7 +523,10 @@ PlayerSettings:
       m_Height: 720
       m_Kind: 1
       m_SubKind: 
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -964,10 +967,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 00f83d82-0c2b-4915-a95f-1f65deee1e59
+  cloudProjectId: 752b8103-ca90-4ea1-b87f-1ed19d00467b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: HEHE
+  projectName: Smart Sort Letters To Numbers
   organizationId: nhuquyen18082001
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
