@@ -251,6 +251,7 @@ MonoBehaviour:
   - {fileID: 607460371}
   - {fileID: 1020432434}
   - {fileID: 193098123}
+  isOpen: 0
 --- !u!1 &146458461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,7 +1722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &839612805
 MonoBehaviour:
   m_ObjectHideFlags: 0

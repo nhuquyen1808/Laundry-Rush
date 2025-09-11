@@ -46,7 +46,7 @@ namespace DevDuck
             }
             else
             {
-                PopupShop.instance.Show();
+               // PopupShop.instance.Show();
             }
 
         }
