@@ -14,6 +14,8 @@ public class ShopController : Singleton<ShopController>
 
     private async void Start()
     {
+        GameDataLoader.instance.LoadGameData();
+        if(GameDataLoader.instance.disabledStatus == 0) return;
         await UniTask.WaitUntil(() => IAPController.Instance.IsInitialized());
        // IAPController.Instance.IsInitialized();
         InitializeIAP();
