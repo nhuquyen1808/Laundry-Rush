@@ -14,10 +14,43 @@ public class ShopController : Singleton<ShopController>
 
     private async void Start()
     {
-        await UniTask.WaitUntil(() => IAPController.Instance.IsInitialized());
-       // IAPController.Instance.IsInitialized();
+        if (Application.internetReachability == NetworkReachability.NotReachable)
+        {
+            Debug.Log("No internet connection.");
+            GameDataLoader.instance.ShowPopupNetworkError();
+            GameDataLoader.instance.disabledStatus = true;
+            // Display a "Not Connected" message to the user
+        }
+        else if (Application.internetReachability == NetworkReachability.ReachableViaLocalAreaNetwork)
+        {
+            Debug.Log("Connected via Wi-Fi or LAN.");
+            GameDataLoader.instance.CheckNetwork();
+            await LoadIAP();
+        }
+        else if (Application.internetReachability == NetworkReachability.ReachableViaCarrierDataNetwork)
+        {
+            Debug.Log("Connected via mobile data.");
+            GameDataLoader.instance.CheckNetwork();
+            await LoadIAP();
+        }
+    }
+
+    private async UniTask LoadIAP()
+    {
+        await UniTask.Delay(1000);
+        Debug.Log(GameDataLoader.instance.disabledStatus);
+        if (GameDataLoader.instance.disabledStatus) return;
+        Time.timeScale = 1f;
+        await IAPController.Instance.InitializeUnityGamingServices();
+        IAPController.Instance.InitializePurchasing();
+        await UniTask.WaitUntil(() =>
+           
+            IAPController.Instance != null &&
+            IAPController.Instance.IsInitialized()
+        );
         InitializeIAP();
         InitializeItemCoins();
+
     }
     public async UniTask ShowShop()
     {
@@ -31,6 +64,7 @@ public class ShopController : Singleton<ShopController>
     }
     public void Show()
     {
+        if (GameDataLoader.instance.disabledStatus) return;
         shopUI.gameObject.SetActive(true);
         isOpen = true;
     }

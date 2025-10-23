@@ -62,7 +62,7 @@ public class IAPController : Singleton<IAPController>, IStoreListener
 
         UnityPurchasing.Initialize(this, builder);
     }
-    private async Task InitializeUnityGamingServices()
+    public async Task InitializeUnityGamingServices()
     {
         try
         {

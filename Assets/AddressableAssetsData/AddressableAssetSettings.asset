@@ -33,6 +33,7 @@ MonoBehaviour:
   m_UniqueBundleIds: 0
   m_EnableJsonCatalog: 0
   m_NonRecursiveBuilding: 1
+  m_AllowNestedBundleFolders: 0
   m_CCDEnabled: 0
   m_maxConcurrentWebRequests: 3
   m_UseUWRForLocalBundles: 0
@@ -107,10 +108,9 @@ MonoBehaviour:
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
-  m_ActivePlayerDataBuilderIndex: 3
+  m_ActivePlayerDataBuilderIndex: 2
   m_DataBuilders:
   - {fileID: 11400000, guid: c8d64c4d7360b8148b6e9f7686c54cc0, type: 2}
-  - {fileID: 11400000, guid: 0f24f5478f9a7894fb55a16f7e1280c2, type: 2}
   - {fileID: 11400000, guid: bfd2ddf8810c70247a4138c1a3409e61, type: 2}
   - {fileID: 11400000, guid: 57a6985a75ba8554489c2a6879119ab5, type: 2}
   m_ActiveProfileId: b58d35c630cea8543bdfb2f228367d3b
