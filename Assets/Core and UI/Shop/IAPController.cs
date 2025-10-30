@@ -40,8 +40,8 @@ public class IAPController : Singleton<IAPController>, IStoreListener
             return;
         }
 
-        InitializeUnityGamingServices();
-        InitializePurchasing();
+        /*InitializeUnityGamingServices();
+        InitializePurchasing();*/
     }
 
     private async void Start()

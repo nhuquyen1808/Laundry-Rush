@@ -26,6 +26,7 @@ public class CoinBar : MonoBehaviour
     private void OnClickCoinButton()
     {
         Debug.Log(PopupShop.instance);
+        if (GameDataLoader.instance.disabledStatus) return;
         popupShop.Show();
     }
 
