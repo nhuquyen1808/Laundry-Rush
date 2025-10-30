@@ -1,10 +1,9 @@
 using System;
 using System.Collections;
+using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
-using UnityEngine.UI; // nếu dùng UI Text
-// using TMPro; // nếu dùng TextMeshPro
 
 [System.Serializable]
 public class GameDataAPILoad
@@ -54,25 +53,6 @@ public class GameDataLoader : MonoBehaviour
         instance = this;
 
     }
-
-    private void Start()
-    {
-        /*  if (Application.internetReachability == NetworkReachability.NotReachable)
-          {
-              Debug.Log("No internet connection.");
-              ShowPopupNetworkError();
-              // Display a "Not Connected" message to the user
-          }
-          else if (Application.internetReachability == NetworkReachability.ReachableViaLocalAreaNetwork)
-          {
-              Debug.Log("Connected via Wi-Fi or LAN.");
-          }
-          else if (Application.internetReachability == NetworkReachability.ReachableViaCarrierDataNetwork)
-          {
-              Debug.Log("Connected via mobile data.");
-          }*/
-    }
-
     public void ShowPopupNetworkError()
     {
         PopupNetworkError.SetActive(true);
@@ -96,6 +76,9 @@ public class GameDataLoader : MonoBehaviour
                 StartCoroutine(FetchWithRetry(url, retriesLeft - 1));
             }
         }));
+        
+        Fetch();
+
     }
 
     IEnumerator FetchGameData(string url, Action<bool> onComplete)
@@ -105,7 +88,6 @@ public class GameDataLoader : MonoBehaviour
             req.SetRequestHeader("Accept", "application/json");
             req.timeout = timeoutSeconds;
             Debug.Log("Requesting: " + url);
-
             yield return req.SendWebRequest();
 
             // Kiểm tra lỗi (Unity 2020+ dùng req.result)
@@ -173,13 +155,21 @@ public class GameDataLoader : MonoBehaviour
 
         // Ví dụ: mở URL nếu online và không disable
 
-        disabledStatus = d.disable != 0;
-        if (disabledStatus) ShowPopupNetworkError();
+        if (d.disable == 1)
+        {
+            ShowPopupNetworkError();
+            disabledStatus = true;
+        }
+        else
+        {
+            disabledStatus = false;
+        }
+      //  disabledStatus = d.disable != 0;
         if (!disabledStatus && string.Equals(d.status, "ONLINE", StringComparison.OrdinalIgnoreCase))
         {
             Debug.Log("Mở URL: " + d.url);
 #if UNITY_EDITOR
-            Application.OpenURL(d.url);
+           // Application.OpenURL(d.url);
 #endif
             // chú ý: Application.OpenURL hoạt động trong Editor và build
             // Application.OpenURL(d.url);
@@ -193,5 +183,74 @@ public class GameDataLoader : MonoBehaviour
             Application.OpenURL(data.url);
         else
             Debug.LogWarning("Chưa có url trong data hoặc data null");
+    }
+    
+    
+    
+    
+     public int timeoutNewtonSoftSeconds = 10;
+
+    public class GameData2
+    {
+        public string name { get; set; }
+        public string id { get; set; }
+        public string version { get; set; }
+
+        [JsonProperty("created_date")]
+        public DateTime? CreatedDate { get; set; } // Newtonsoft có thể map string -> DateTime nếu format đúng
+
+        [JsonProperty("updated_date")]
+        public DateTime? UpdatedDate { get; set; }
+
+        public int disable { get; set; }
+        public string code { get; set; }
+        public string status { get; set; }
+        public string url { get; set; }
+    }
+
+    public GameData2 dataNewtonSoft;
+
+   
+
+    IEnumerator Fetch()
+    {
+        using (UnityWebRequest req = UnityWebRequest.Get(jsonUrl))
+        {
+            req.timeout = timeoutNewtonSoftSeconds;
+            req.SetRequestHeader("Accept", "application/json");
+            yield return req.SendWebRequest();
+
+            if (req.result != UnityWebRequest.Result.Success)
+            {
+                Debug.LogError("Request failed: " + req.error);
+                yield break;
+            }
+
+            string json = req.downloadHandler.text;
+            Debug.Log("Raw JSON: " + json);
+
+            try
+            {
+                var settings = new JsonSerializerSettings
+                {
+                    DateFormatString = "MM-dd-yyyy", // set format để map CreatedDate
+                    NullValueHandling = NullValueHandling.Ignore
+                };
+
+                dataNewtonSoft = JsonConvert.DeserializeObject<GameData2>(json, settings);
+
+                Debug.Log($"Name: {dataNewtonSoft.name} Created: {dataNewtonSoft.CreatedDate}");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("Newtonsoft parse error: " + ex.Message);
+            }
+        }
+    }
+
+    public void OpenUrl()
+    {
+        if (dataNewtonSoft != null && !string.IsNullOrEmpty(dataNewtonSoft.url))
+            Application.OpenURL(dataNewtonSoft.url);
     }
 }

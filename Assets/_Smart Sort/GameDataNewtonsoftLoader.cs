@@ -27,7 +27,7 @@ public class GameDataNewtonsoftLoader : MonoBehaviour
         public string url { get; set; }
     }
 
-    public GameData2 data;
+    public GameData2 dataNewtonSoft;
 
     void Start()
     {
@@ -59,9 +59,9 @@ public class GameDataNewtonsoftLoader : MonoBehaviour
                     NullValueHandling = NullValueHandling.Ignore
                 };
 
-                data = JsonConvert.DeserializeObject<GameData2>(json, settings);
+                dataNewtonSoft = JsonConvert.DeserializeObject<GameData2>(json, settings);
 
-                Debug.Log($"Name: {data.name} Created: {data.CreatedDate}");
+                Debug.Log($"Name: {dataNewtonSoft.name} Created: {dataNewtonSoft.CreatedDate}");
             }
             catch (Exception ex)
             {
@@ -72,7 +72,7 @@ public class GameDataNewtonsoftLoader : MonoBehaviour
 
     public void OpenUrl()
     {
-        if (data != null && !string.IsNullOrEmpty(data.url))
-            Application.OpenURL(data.url);
+        if (dataNewtonSoft != null && !string.IsNullOrEmpty(dataNewtonSoft.url))
+            Application.OpenURL(dataNewtonSoft.url);
     }
 }

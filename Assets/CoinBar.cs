@@ -1,39 +1,26 @@
 using System;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CoinBar : MonoBehaviour
 {
-    public Button CoinButton;
-    public TextMeshProUGUI coinText;
+    public Text coinText;
     public static CoinBar instance;
-    public PopupShop popupShop;
+
 
     private void Awake()
     {
         instance = this;
-        CoinButton.onClick.RemoveAllListeners();
-        CoinButton.onClick.AddListener(OnClickCoinButton);
-        UpdateUI();
     }
 
-    private void OnDestroy()
+    private void Start()
     {
-        CoinButton.onClick.RemoveAllListeners();
+        UpdateCoinText();
     }
 
-    private void OnClickCoinButton()
+    public void UpdateCoinText()
     {
-        Debug.Log(PopupShop.instance);
-        if (GameDataLoader.instance.disabledStatus) return;
-        popupShop.Show();
-    }
-
-
-    public void UpdateUI()
-    {
-        int coin = PlayerPrefs.GetInt("coin");
+        var coin = PlayerPrefs.GetInt("coin");
         coinText.text = coin.ToString();
     }
 }

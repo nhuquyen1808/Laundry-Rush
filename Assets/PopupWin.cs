@@ -27,8 +27,8 @@ public  class PopupWin : MonoBehaviour
         currentlevel++;
         int coin = PlayerPrefs.GetInt("coin");
         coin += 300;
-        PlayerPrefs.SetInt("coin", coin);
-                CoinBar.instance.UpdateUI();
+        PlayerPrefs.SetInt("coin", coin); 
+        CoinBar.instance.UpdateCoinText();
         PlayerPrefs.SetInt("CurrentLevel",currentlevel);
         Scene scene = SceneManager.GetActiveScene();
         ManagerSceneDuck.ins.LoadScene(scene.name);

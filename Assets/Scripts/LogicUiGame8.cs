@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using IAP_Dev;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -32,7 +33,7 @@ namespace DevDuck
                 AudioManager.instance.PlaySound("Booster");
 
                 PlayerPrefs.SetInt("coin" ,coin);
-                CoinBar.instance.UpdateUI();
+                CoinBar.instance.UpdateCoinText();
                 frezeeButton.enabled = false;
                 ManagerGame.TIME_SCALE = 0;
                 timeFrezeed.gameObject.SetActive(true);
@@ -46,7 +47,7 @@ namespace DevDuck
             }
             else
             {
-                PopupShop.instance.Show();
+                ShopController.Instance.Show();
             }
 
         }
