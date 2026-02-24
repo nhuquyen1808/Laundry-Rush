@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CoinBar : MonoBehaviour
+public class CoinBar : Singleton<CoinBar>
 {
     public Text coinText;
     public static CoinBar instance;

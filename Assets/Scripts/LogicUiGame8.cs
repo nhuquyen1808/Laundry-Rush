@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
-using IAP_Dev;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -47,7 +46,7 @@ namespace DevDuck
             }
             else
             {
-                ShopController.Instance.Show();
+                /*ShopController.Instance.Show();*/
             }
 
         }
