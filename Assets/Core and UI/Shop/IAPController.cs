@@ -116,7 +116,7 @@ public class IAPController : Singleton<IAPController>
 
         OnPurchaseSuccess?.Invoke(true);
         Debug.Log($"Purchase complete - Product: {product.definition.id}");
-        //m_StoreController.ConfirmPurchase(order);
+        m_StoreController.ConfirmPurchase(order);
     }
 
     void OnPurchaseConfirmed(Order order)

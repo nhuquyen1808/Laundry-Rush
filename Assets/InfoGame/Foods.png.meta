@@ -139,10 +139,10 @@ TextureImporter:
       name: Foods_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 1167
-        width: 262
-        height: 232
+        x: 12
+        y: 588
+        width: 264
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,10 +161,10 @@ TextureImporter:
       name: Foods_1
       rect:
         serializedVersion: 2
-        x: 407
-        y: 1178
-        width: 217
-        height: 242
+        x: 372
+        y: 558
+        width: 294
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Foods_2
       rect:
         serializedVersion: 2
-        x: 696
-        y: 1174
-        width: 265
-        height: 237
+        x: 751
+        y: 558
+        width: 293
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +205,10 @@ TextureImporter:
       name: Foods_3
       rect:
         serializedVersion: 2
-        x: 78
-        y: 863
-        width: 274
-        height: 187
+        x: 12
+        y: 294
+        width: 252
+        height: 182
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: Foods_4
       rect:
         serializedVersion: 2
-        x: 414
-        y: 870
-        width: 223
-        height: 196
+        x: 402
+        y: 290
+        width: 235
+        height: 193
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,9 +249,9 @@ TextureImporter:
       name: Foods_5
       rect:
         serializedVersion: 2
-        x: 708
-        y: 859
-        width: 246
+        x: 764
+        y: 277
+        width: 267
         height: 203
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -268,35 +268,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Foods_6
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 512
-        width: 265
-        height: 218
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea2857f8a4ecce5408f3cb4c7d90e5b4
-      internalID: 1355990443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Foods_7
       rect:
         serializedVersion: 2
-        x: 396
-        y: 528
-        width: 264
-        height: 200
+        x: 12
+        y: 6
+        width: 273
+        height: 148
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +293,10 @@ TextureImporter:
       name: Foods_8
       rect:
         serializedVersion: 2
-        x: 726
-        y: 515
-        width: 227
-        height: 215
+        x: 394
+        y: 6
+        width: 248
+        height: 156
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,6 +307,28 @@ TextureImporter:
       bones: []
       spriteID: 36d73ffb4ff8e88459d8b99b9157fb83
       internalID: 680300483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foods_9
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 0
+        width: 257
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00b35da36782bf419558ed4c50d8b54
+      internalID: 1446803901
       vertices: []
       indices: 
       edges: []
@@ -351,9 +351,6 @@ TextureImporter:
     nameFileIdTable:
       Foods_0: 1735650419
       Foods_1: 774849372
-      Foods_10: -1905096133
-      Foods_11: 2051158151
-      Foods_12: -664755914
       Foods_2: -1787041574
       Foods_3: -944312731
       Foods_4: -980173432
