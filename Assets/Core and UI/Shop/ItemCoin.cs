@@ -56,7 +56,7 @@ namespace  IAP_Dev
         {
             Debug.Log($"OnSuccess: name:{gameObject.name} key:{key}");
             var coin =  PlayerPrefs.GetInt("coin");
-            coin += coinReceive;
+            coin += coinReceive/2;
             PlayerPrefs.SetInt("coin", coin);
             CoinBar.instance.UpdateCoinText();
             // AudioManager.instance.PlaySound("Cash");
