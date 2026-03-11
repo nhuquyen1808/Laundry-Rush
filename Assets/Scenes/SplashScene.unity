@@ -1866,10 +1866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: hff_pack_1
-  coinReceive: 1000
-  txtPrice: {fileID: 5280502113903606787}
-  txtCoin: {fileID: 4614848052985780233}
 --- !u!1 &1726925397830371384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,10 +2374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: hff_pack_6
-  coinReceive: 100000
-  txtPrice: {fileID: 5293318352948529187}
-  txtCoin: {fileID: 4370112696407765495}
 --- !u!1 &2698177514389084045
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,10 +2744,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: hff_pack_4
-  coinReceive: 30000
-  txtPrice: {fileID: 4702399193791700587}
-  txtCoin: {fileID: 5647768312006632528}
 --- !u!114 &3664529829690532968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3813,10 +3801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: hff_pack_5
-  coinReceive: 50000
-  txtPrice: {fileID: 4957192725364655426}
-  txtCoin: {fileID: 1988963607679871161}
 --- !u!114 &5494289890889059011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4721,10 +4705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: hff_pack_3
-  coinReceive: 10000
-  txtPrice: {fileID: 5494289890889059011}
-  txtCoin: {fileID: 3822851170537345174}
 --- !u!224 &7566030830138987688
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5261,10 +5241,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: hff_pack_2
-  coinReceive: 3000
-  txtPrice: {fileID: 269022086668573097}
-  txtCoin: {fileID: 8298253904685371556}
 --- !u!1 &8977457021530490097
 GameObject:
   m_ObjectHideFlags: 0
