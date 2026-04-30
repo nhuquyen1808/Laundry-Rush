@@ -250,7 +250,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.45, y: 1.94}
+    oldSize: {x: 4.9214287, y: 1.9428571}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5884,7 +5884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0141f606a9d3fa749af2197293b7d4b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c452492cccac4cf4d8fd854cf8d4c6ba, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6709,7 +6709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.0189, y: 432}
+  m_AnchoredPosition: {x: 1.0189, y: 341}
   m_SizeDelta: {x: 893, y: 226}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &426409980
@@ -6732,7 +6732,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c94c142f24297f8428c7f792847509f6, type: 3}
+  m_Sprite: {fileID: 256527796, guid: 4ac572efcd19f7c4582765b5c4180018, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6987,7 +6987,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d7711a11e22db724da1633834e51d3f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 825b26d3cb612d549892d73c045e8513, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7152,7 +7152,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.45, y: 1.94}
+    oldSize: {x: 4.9214287, y: 1.9428571}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8741,7 +8741,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.45, y: 1.94}
+    oldSize: {x: 4.9214287, y: 1.9428571}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8865,7 +8865,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.32, y: 3.272}
+    oldSize: {x: 3.572, y: 2.712}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8922,7 +8922,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: a6c6f3ebcf8cdc14a99c57cd147e4e7c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d59290ce417bc646bfcee3a55a8ff73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10220,7 +10220,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2070899698, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
+  m_Sprite: {fileID: 404457765, guid: 580c37211868678419d28b95fd5d193b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -15362,7 +15362,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.45, y: 1.94}
+    oldSize: {x: 4.9214287, y: 1.9428571}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15657,7 +15657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.8068, y: -4.4527}
+  m_AnchoredPosition: {x: 0.000023842, y: 29.9}
   m_SizeDelta: {x: 519.755, y: 101.6043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1353400900
@@ -15689,8 +15689,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279374394
-  m_fontColor: {r: 0.2264151, g: 0.06941973, b: 0.06941973, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -16042,7 +16042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -944312731, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
+  m_Sprite: {fileID: -1129086402, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -16348,7 +16348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e982190b0e33bd74bb1fee63b7a0447a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e90071392a4a53443a8aa9cfd2fa0567, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16557,7 +16557,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1087123779, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
+  m_Sprite: {fileID: 1632285250, guid: 580c37211868678419d28b95fd5d193b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -16857,7 +16857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1735650419, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
+  m_Sprite: {fileID: 57740398, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -16932,7 +16932,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.164, y: 3.4}
+    oldSize: {x: 3.22, y: 2.544}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -16989,7 +16989,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 5d59290ce417bc646bfcee3a55a8ff73, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6c6f3ebcf8cdc14a99c57cd147e4e7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17418,8 +17418,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fee31631792e3aa43ae64772d0f94841, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 98b854767477b53498ee9ac75fc4db9d, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -17885,7 +17885,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.45, y: 1.94}
+    oldSize: {x: 4.9214287, y: 1.9428571}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -23063,8 +23063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: 363}
-  m_SizeDelta: {x: 754, y: 565.7465}
+  m_AnchoredPosition: {x: -0.000020981, y: 332}
+  m_SizeDelta: {x: 788.5212, y: 218.9653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1795495747
 MonoBehaviour:
@@ -23086,7 +23086,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e15cb515d9c461d4dbf919f67718323f, type: 3}
+  m_Sprite: {fileID: 1907885926, guid: 4ac572efcd19f7c4582765b5c4180018, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -23138,7 +23138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444, y: 3.5}
+  m_AnchoredPosition: {x: -0.000011444, y: 32.5}
   m_SizeDelta: {x: 311.8289, y: 129.2428}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1808539795
@@ -23298,7 +23298,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -780876966, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
+  m_Sprite: {fileID: 1849443974, guid: 580c37211868678419d28b95fd5d193b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -28432,7 +28432,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.45, y: 1.94}
+    oldSize: {x: 4.9214287, y: 1.9428571}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -28810,30 +28810,38 @@ MonoBehaviour:
   totalTimer: 0
   levelDataGame: {fileID: 1018695384}
   letterSprList:
-  - {fileID: 1735650419, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: 774849372, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -1787041574, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -944312731, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -980173432, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -1214514639, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -83829715, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: 680300483, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -2067149932, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -515469160, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -723935216, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
-  - {fileID: -356055484, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
+  - {fileID: 2029984462, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 2088422769, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -1858497734, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -441514159, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 2076814631, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -1623973802, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 1605532990, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 1585897632, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -512732801, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 1085967472, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -706025807, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -59540328, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -801322068, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 1005021929, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 1849443974, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 404457765, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -1390636674, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -1138014306, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 1632285250, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: 1119369524, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -283341307, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -2077081790, guid: 580c37211868678419d28b95fd5d193b, type: 3}
+  - {fileID: -349319546, guid: 580c37211868678419d28b95fd5d193b, type: 3}
   numbersSprList:
-  - {fileID: 2070899698, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: -1998059980, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: -730743710, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: -1630695301, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: 319700605, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: -1669762054, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: -780876966, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: 1657427890, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: 370876195, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: 361800892, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
-  - {fileID: 1087123779, guid: 9a772ef67f1a4b346b4918a6bfaba052, type: 3}
+  - {fileID: 1040792840, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
+  - {fileID: -1129086402, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
+  - {fileID: -406629094, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
+  - {fileID: 57740398, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
+  - {fileID: 899297237, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
+  - {fileID: 914373332, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
+  - {fileID: -1872758059, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
+  - {fileID: -504246042, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
 --- !u!4 &2014957350
 Transform:
   m_ObjectHideFlags: 0
@@ -29059,7 +29067,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 774849372, guid: e0ede3ff8be07184eb4c27007a200f5d, type: 3}
+  m_Sprite: {fileID: 1040792840, guid: 1c95d4851db1ea3489c1455feccdcdeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

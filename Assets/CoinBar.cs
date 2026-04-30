@@ -20,7 +20,7 @@ public class CoinBar : MonoBehaviour
 
     public void UpdateCoinText()
     {
-        var coin = PlayerPrefs.GetInt("coin");
+        var coin = PlayerPrefs.GetFloat("coin");
         coinText.text = coin.ToString();
     }
 }

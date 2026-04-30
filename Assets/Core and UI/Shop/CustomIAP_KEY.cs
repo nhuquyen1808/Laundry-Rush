@@ -1,4 +1,3 @@
-using DevDuck;
 using IAP_Dev;
 
 #if UNITY_EDITOR
@@ -32,20 +31,17 @@ namespace NQDev
 
                 ShopController shopController = FindAnyObjectByType<ShopController>();
                 shopController.UpdateItemCoin();
-                Duck.Log("Create KeyCode And Set KEY, sprite");
             }
             if (GUILayout.Button("Update price"))
             {
                 ShopController shopController = FindAnyObjectByType<ShopController>();
                 shopController.SetPriceValue();
-                Duck.Log("Price was updated");
             }
 
             if (GUILayout.Button("Get Infor"))
             {
                 IAPController iapController = (IAPController)target;
                 iapController.GetGameInfor();
-                Duck.Log("game infor was updated");
 
             }
         }

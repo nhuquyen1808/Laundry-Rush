@@ -26,13 +26,14 @@ namespace DevDuck
 
         private void OnClickFrezeeButton()
         {
-            int coin = PlayerPrefs.GetInt("coin");
-            if(coin >= 300)
+            float coin = PlayerPrefs.GetFloat("coin");
+
+            if (coin >= 300)
             {
                 coin -= 300;
                 AudioManager.instance.PlaySound("Booster");
 
-                PlayerPrefs.SetInt("coin" ,coin);
+                PlayerPrefs.SetFloat("coin" ,coin);
                 CoinBar.instance.UpdateCoinText();
                 frezeeButton.enabled = false;
                 ManagerGame.TIME_SCALE = 0;

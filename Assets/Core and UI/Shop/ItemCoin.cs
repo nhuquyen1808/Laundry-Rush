@@ -77,7 +77,7 @@ namespace  IAP_Dev
             var coin =  PlayerPrefs.GetFloat("coin");
             coin += coinReceive;
             PlayerPrefs.SetFloat("coin", coin);
-            CoinBar.Instance.UpdateCoinText(); 
+            CoinBar.instance.UpdateCoinText(); 
            // AudioManager.instance.PlaySound("Cash");
         }
 
