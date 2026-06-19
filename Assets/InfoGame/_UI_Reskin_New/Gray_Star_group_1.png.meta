@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 25e83e4624bb2a946b6f2016669453b6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gray_Star_group_1_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 629
+        width: 273
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aacb5c23d6554f408b071845774c74b
+      internalID: 2005156144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Star_group_1_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 630
+        width: 277
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30142455f19a4274b870d35733f017b4
+      internalID: -1202725372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Star_group_1_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 628
+        width: 279
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba67f1e52ad7da4eab30d41200c4cd7
+      internalID: -964534386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Star_group_1_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 323
+        width: 276
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911317321aa7a064d952a5b803c63854
+      internalID: -1732413115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Star_group_1_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 320
+        width: 282
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2e95d80f26094d8e00ef9501af59c
+      internalID: 541943099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Star_group_1_24
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 324
+        width: 285
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae074f4cfd6c1ef45a09495cd7113ae5
+      internalID: -1802191247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Star_group_1_52
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 279
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c90c2590c4f5e4fa43a5985ddca7a8
+      internalID: -800502878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Star_group_1_60
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 278
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659aeed0f76106c4398643b5d35cfcf3
+      internalID: -1705679717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray_Star_group_1_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 281
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3402d8e4e48f8d4c9af37cbf6457673
+      internalID: 682240484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4f019511a602abb4b83ea1553d6cf862
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Gray_Star_group_1_0: 2005156144
+      Gray_Star_group_1_1: 1461871949
+      Gray_Star_group_1_10: -522277927
+      Gray_Star_group_1_11: 131542461
+      Gray_Star_group_1_12: -559819227
+      Gray_Star_group_1_13: -274923501
+      Gray_Star_group_1_14: 110396130
+      Gray_Star_group_1_15: -1152591506
+      Gray_Star_group_1_16: -138985327
+      Gray_Star_group_1_17: -1732413115
+      Gray_Star_group_1_18: 1617714648
+      Gray_Star_group_1_19: -234157772
+      Gray_Star_group_1_2: -1202725372
+      Gray_Star_group_1_20: 31706480
+      Gray_Star_group_1_21: 1618350392
+      Gray_Star_group_1_22: 541943099
+      Gray_Star_group_1_23: -1461163167
+      Gray_Star_group_1_24: -1802191247
+      Gray_Star_group_1_25: -795957169
+      Gray_Star_group_1_26: 1055949603
+      Gray_Star_group_1_27: -291314257
+      Gray_Star_group_1_28: 2043361417
+      Gray_Star_group_1_29: 852209956
+      Gray_Star_group_1_3: -964534386
+      Gray_Star_group_1_30: 2098011419
+      Gray_Star_group_1_31: 2013323107
+      Gray_Star_group_1_32: 392431906
+      Gray_Star_group_1_33: 1480114489
+      Gray_Star_group_1_34: 1239443615
+      Gray_Star_group_1_35: -956815029
+      Gray_Star_group_1_36: -1529055418
+      Gray_Star_group_1_37: 2101284184
+      Gray_Star_group_1_38: 894205227
+      Gray_Star_group_1_39: 1244652718
+      Gray_Star_group_1_4: 549650104
+      Gray_Star_group_1_40: 1381473671
+      Gray_Star_group_1_41: 513333540
+      Gray_Star_group_1_42: 760287948
+      Gray_Star_group_1_43: 963826584
+      Gray_Star_group_1_44: 248187900
+      Gray_Star_group_1_45: 38062648
+      Gray_Star_group_1_46: -1783756313
+      Gray_Star_group_1_47: 836595851
+      Gray_Star_group_1_48: -235461880
+      Gray_Star_group_1_49: 573788058
+      Gray_Star_group_1_5: -1607895101
+      Gray_Star_group_1_50: 1700386036
+      Gray_Star_group_1_51: 2015743842
+      Gray_Star_group_1_52: -800502878
+      Gray_Star_group_1_53: 463222639
+      Gray_Star_group_1_54: 269357136
+      Gray_Star_group_1_55: 1153589523
+      Gray_Star_group_1_56: -790274719
+      Gray_Star_group_1_57: 1789291526
+      Gray_Star_group_1_58: 2126892608
+      Gray_Star_group_1_59: -1474015807
+      Gray_Star_group_1_6: -871567103
+      Gray_Star_group_1_60: -1705679717
+      Gray_Star_group_1_61: 682240484
+      Gray_Star_group_1_62: -1835674773
+      Gray_Star_group_1_7: 1718066225
+      Gray_Star_group_1_8: 1822569792
+      Gray_Star_group_1_9: -1768359977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
