@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dab49d39d893d0e4d8c0944dbdd2c98c
+guid: eab8339b955ac914e8b3d2b92d08ce23
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,19 +107,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -136,189 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sea_animal_0
+      name: IAP_new_update_3_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 716
-        width: 256
-        height: 226
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fb937fbd9575374b84ecffb000b45fe
-      internalID: 954500271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea_animal_1
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 720
-        width: 274
-        height: 246
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 999bc5b059c8a2d4394ea40c5482a7f3
-      internalID: 1103767778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea_animal_2
-      rect:
-        serializedVersion: 2
-        x: 698
-        y: 738
-        width: 263
-        height: 210
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d986626fae32c1a49bf85bc603bab362
-      internalID: -1916053562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea_animal_5
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 438
-        width: 252
-        height: 222
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f6abec09226fd34fb91c7dfb5d78b51
-      internalID: 442638144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea_animal_6
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 450
-        width: 249
-        height: 186
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ad64f0e99ef28949a30475e9640b484
-      internalID: 1446614292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea_animal_7
-      rect:
-        serializedVersion: 2
-        x: 688
-        y: 438
-        width: 287
-        height: 193
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2aaa593203f3cec4688ae0606bff41a6
-      internalID: 1254231170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea_animal_8
-      rect:
-        serializedVersion: 2
-        x: 93
-        y: 144
-        width: 236
-        height: 210
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1815d3e7d7eb46d4ea804fe6ab927df3
-      internalID: -1150579908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea_animal_9
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 137
-        width: 216
-        height: 217
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2650296c6e3870644b5d745c6ce1d685
-      internalID: -1875542210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sea_animal_10
-      rect:
-        serializedVersion: 2
-        x: 728
-        y: 104
+        x: 48
+        y: 702
         width: 186
-        height: 256
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,8 +138,184 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be4ef72ebe2d3f14797db66371ea5cb6
-      internalID: -1525658288
+      spriteID: fa82b327d8a31f640ae41a98ac41f320
+      internalID: -1935873292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_3_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 720
+        width: 221
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643f6319303b7f84483023abefa47017
+      internalID: 888041527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_3_2
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 715
+        width: 210
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081e444c9445ded42967a7d142789423
+      internalID: 129169247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_3_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 372
+        width: 222
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f7c8578f97c8442b795aa5784d1ecd
+      internalID: 158766432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_3_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 354
+        width: 287
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c94a1de92b61d4692f8ba13bb7c5e6
+      internalID: 1856474013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_3_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 373
+        width: 257
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0c0e8066393ef41bc0b7d1afea9d8d
+      internalID: 1123000583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_3_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 12
+        width: 266
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d97e399ab3670e438d33e9c48762490
+      internalID: -1219673100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_3_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 248
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bffd1647e336dd4e918e7117d10649a
+      internalID: 1200537355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_3_13
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 255
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980b3323e13820f48a5e1e87e24ef695
+      internalID: -2011616459
       vertices: []
       indices: 
       edges: []
@@ -337,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7f5d2d8dffcb5474b8ad82f7800a6c55
+    spriteID: d79b63fb1741e0e4e8f8485370ec7238
     internalID: 0
     vertices: []
     indices: 
@@ -349,27 +336,20 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sea_animal_0: 954500271
-      sea_animal_1: 1103767778
-      sea_animal_10: -1525658288
-      sea_animal_11: 936668322
-      sea_animal_12: 2015479278
-      sea_animal_13: 291440287
-      sea_animal_14: -1201062199
-      sea_animal_15: 1143415595
-      sea_animal_16: -1499025510
-      sea_animal_17: 702164780
-      sea_animal_18: 1347193370
-      sea_animal_19: -1678535616
-      sea_animal_2: -1916053562
-      sea_animal_20: -2003793031
-      sea_animal_3: -1217778518
-      sea_animal_4: 1784349270
-      sea_animal_5: 442638144
-      sea_animal_6: 1446614292
-      sea_animal_7: 1254231170
-      sea_animal_8: -1150579908
-      sea_animal_9: -1875542210
+      IAP_new_update_3_0: -1935873292
+      IAP_new_update_3_1: 888041527
+      IAP_new_update_3_10: -1219673100
+      IAP_new_update_3_11: 19695149
+      IAP_new_update_3_12: 1200537355
+      IAP_new_update_3_13: -2011616459
+      IAP_new_update_3_2: 129169247
+      IAP_new_update_3_3: 158766432
+      IAP_new_update_3_4: 1856474013
+      IAP_new_update_3_5: 1123000583
+      IAP_new_update_3_6: -1501061677
+      IAP_new_update_3_7: -884445229
+      IAP_new_update_3_8: -341024840
+      IAP_new_update_3_9: 1189542348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

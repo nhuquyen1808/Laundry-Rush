@@ -103,6 +103,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -239,6 +240,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -291,7 +293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2331284423138720406
 RectTransform:
   m_ObjectHideFlags: 0
@@ -496,6 +498,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -632,6 +635,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -948,6 +952,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1216,6 +1221,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1258,7 +1264,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5536739649695852968}
-  - component: {fileID: 4124722742113414969}
   - component: {fileID: 1123383392755501837}
   m_Layer: 0
   m_Name: GameDataLoad
@@ -1283,20 +1288,6 @@ Transform:
   - {fileID: 914776671979521186}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4124722742113414969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8373744393243516024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0a9f02f30e21b149847b1ea60200b7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jsonUrl: https://api.blwsmartware.net/R003.json
-  timeoutSeconds: 10
 --- !u!114 &1123383392755501837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1309,7 +1300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f3217074c405641a8cf5e11178ea69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonUrl: https://api.blwsmartware.net/R003.json
+  jsonUrl: https://api2.blwsmartware.net/S141.json
   uiName: {fileID: 663059232776838751}
   packageID: {fileID: 4275519268298420291}
   IDText: {fileID: 9208668715449399005}
@@ -1331,6 +1322,7 @@ MonoBehaviour:
     code: 
     status: 
     url: 
+  timeoutNewtonSoftSeconds: 10
 --- !u!1 &8424636917060339994
 GameObject:
   m_ObjectHideFlags: 0

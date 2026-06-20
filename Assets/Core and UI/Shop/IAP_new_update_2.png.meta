@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 70dd95fa486687f48b501b81ce513b96
+guid: 863d311f2b5d4044fbdd8cefcabb12ae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,19 +107,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -136,13 +123,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: island_0
+      name: IAP_new_update_2_0
       rect:
         serializedVersion: 2
-        x: 95
-        y: 693
+        x: 72
+        y: 780
+        width: 234
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5d53051db0b1b4dbc2a64b0d87bc1b
+      internalID: 1073812274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_2_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
         width: 256
-        height: 235
+        height: 204
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 264fb5f59facc1c4b873e890d335ffcb
-      internalID: 906252545
+      spriteID: e24af293de0b4f444a6d44aba8d60a76
+      internalID: 1358542485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: island_1
+      name: IAP_new_update_2_2
       rect:
         serializedVersion: 2
-        x: 390
-        y: 694
-        width: 246
-        height: 242
+        x: 696
+        y: 762
+        width: 297
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,129 +182,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e318a622229674e81fd29aac268f89
-      internalID: -211345591
+      spriteID: e7fd4482b2b542c43b8854d3db123964
+      internalID: 1201224623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: island_2
+      name: IAP_new_update_2_3
       rect:
         serializedVersion: 2
-        x: 710
-        y: 690
-        width: 199
-        height: 264
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19ef9748252732e45945440d0be9edc5
-      internalID: -831862546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: island_3
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 402
-        width: 231
-        height: 240
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bea5da1f264f883438fa71a1ce3b26d8
-      internalID: -154214578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: island_4
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 402
-        width: 240
-        height: 244
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d65db5dfdaf3374a8dc7e172d19d263
-      internalID: -814093815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: island_5
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 402
-        width: 288
-        height: 231
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a66bef4d22952be45b07e8d480ef3fab
-      internalID: 614767609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: island_6
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 114
-        width: 252
-        height: 240
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d48707d0610dfb444bc52b31d446d0ee
-      internalID: 1599265110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: island_7
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 108
-        width: 244
+        x: 32
+        y: 426
+        width: 285
         height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -305,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1e5c570a0f46064faa390ee920c78bb
-      internalID: 1408262475
+      spriteID: fe9a09031e6e72f42b7c3f042965321e
+      internalID: -990757542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: island_8
+      name: IAP_new_update_2_4
       rect:
         serializedVersion: 2
-        x: 672
-        y: 113
-        width: 262
-        height: 230
+        x: 364
+        y: 427
+        width: 286
+        height: 287
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,8 +226,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5f2dde91a533e74cb8f59e3d63e4cbc
-      internalID: -781117377
+      spriteID: d4da6f056616d054398f40b6d86ec377
+      internalID: -917329891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_2_5
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 408
+        width: 341
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10617a363e5651f44a0eed94acfefce7
+      internalID: 1582544448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_2_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 78
+        width: 283
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b66d94c07e15354e88fde68bbad7eea
+      internalID: -1075354048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_2_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 96
+        width: 300
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8cc8786c6e53945a9fdcf9ef4f6b21
+      internalID: 478475481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IAP_new_update_2_6
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 77
+        width: 308
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496a7d649fad2c14195a16b67775bec1
+      internalID: 402797023
       vertices: []
       indices: 
       edges: []
@@ -337,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 35325e059d80cf245a62caed5359d3e3
+    spriteID: 8abc0fb321214dd48b48ff1e5792db1a
     internalID: 0
     vertices: []
     indices: 
@@ -349,15 +336,22 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      island_0: 906252545
-      island_1: -211345591
-      island_2: -831862546
-      island_3: -154214578
-      island_4: -814093815
-      island_5: 614767609
-      island_6: 1599265110
-      island_7: 1408262475
-      island_8: -781117377
+      IAP_new_update_2_0: 1073812274
+      IAP_new_update_2_1: 1358542485
+      IAP_new_update_2_10: -1363072078
+      IAP_new_update_2_11: 40383831
+      IAP_new_update_2_12: -40222977
+      IAP_new_update_2_13: 89671742
+      IAP_new_update_2_14: -1075354048
+      IAP_new_update_2_15: 478475481
+      IAP_new_update_2_2: 1201224623
+      IAP_new_update_2_3: -990757542
+      IAP_new_update_2_4: -917329891
+      IAP_new_update_2_5: 1582544448
+      IAP_new_update_2_6: 402797023
+      IAP_new_update_2_7: -1735972373
+      IAP_new_update_2_8: -1482211790
+      IAP_new_update_2_9: -693931798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
