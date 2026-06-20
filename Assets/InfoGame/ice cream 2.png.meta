@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a772ef67f1a4b346b4918a6bfaba052
+guid: 4b8774c44a87b2e4a95503378035070b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 140
+  spritePixelsToUnits: 240
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,19 +107,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -136,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Drinks_0
+      name: ice cream 2_0
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1159
-        width: 194
-        height: 311
+        x: 1
+        y: 462
+        width: 190
+        height: 420
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b273111575b50e54ba3320aa5e3357de
-      internalID: 2070899698
+      spriteID: 9d1f8511556773b4b9ce9acaebf01a52
+      internalID: -1704094287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Drinks_2
+      name: ice cream 2_1
       rect:
         serializedVersion: 2
-        x: 413
-        y: 1156
-        width: 199
-        height: 314
+        x: 23
+        y: 0
+        width: 151
+        height: 401
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47637c75aa1f0e3499dc730cdf80e69a
-      internalID: 1024906718
+      spriteID: c6cf8a9834e28cb4b96ade32ea6aa76d
+      internalID: -686691162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Drinks_3
+      name: ice cream 2_5
       rect:
         serializedVersion: 2
-        x: 718
-        y: 1160
-        width: 196
-        height: 306
+        x: 496
+        y: 466
+        width: 218
+        height: 419
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17786e1c2396fd4584d4a2e5b709716
-      internalID: -1998059980
+      spriteID: 84c5b7bc05b776d4a8c0b2dcd349884d
+      internalID: -1238432809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Drinks_8
+      name: ice cream 2_6
       rect:
         serializedVersion: 2
-        x: 108
-        y: 751
-        width: 214
-        height: 300
+        x: 534
+        y: 0
+        width: 150
+        height: 404
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,118 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 797448c474adb9f4ca783224e8c9f636
-      internalID: 2064189214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drinks_9
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 750
-        width: 195
-        height: 316
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc225f0771b6d7a46b72c0cd8abb560b
-      internalID: -1084219976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drinks_10
-      rect:
-        serializedVersion: 2
-        x: 716
-        y: 751
-        width: 199
-        height: 313
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32569e5d11492ea4690f575b646deb72
-      internalID: -2027162514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drinks_31
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 372
-        width: 210
-        height: 273
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4858dc8bcba6484690ffd2f7abc3fed
-      internalID: 712601632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drinks_32
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 373
-        width: 163
-        height: 243
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1f6a48939dc897419bfdf497552b30b
-      internalID: 142620990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Drinks_33
-      rect:
-        serializedVersion: 2
-        x: 766
-        y: 374
-        width: 141
-        height: 264
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21eb605c31ca5e34bbca587e4b4d6d80
-      internalID: 293708978
+      spriteID: 1b909f6abe6804441b5e08e7c580af9e
+      internalID: 1538199743
       vertices: []
       indices: 
       edges: []
@@ -337,7 +214,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 09930ac6ef6fa5846b030f6b84150fe8
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -349,40 +226,13 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Drinks_0: 2070899698
-      Drinks_1: -385562402
-      Drinks_10: -2027162514
-      Drinks_11: 1855234407
-      Drinks_12: -693877922
-      Drinks_13: -2097732119
-      Drinks_14: -631607374
-      Drinks_15: -910869125
-      Drinks_16: -374200387
-      Drinks_17: 319700605
-      Drinks_18: 1346063933
-      Drinks_19: -905591570
-      Drinks_2: 1024906718
-      Drinks_20: -1669762054
-      Drinks_21: -2050863337
-      Drinks_22: -780876966
-      Drinks_23: 2030200605
-      Drinks_24: 1657427890
-      Drinks_25: -919375472
-      Drinks_26: -2066097661
-      Drinks_27: -1055704200
-      Drinks_28: 1076055595
-      Drinks_29: -932899859
-      Drinks_3: -1998059980
-      Drinks_30: -1573855002
-      Drinks_31: 712601632
-      Drinks_32: 142620990
-      Drinks_33: 293708978
-      Drinks_4: -730743710
-      Drinks_5: -1630695301
-      Drinks_6: -129036765
-      Drinks_7: -1348328870
-      Drinks_8: 2064189214
-      Drinks_9: -1084219976
+      ice cream 2_0: -1704094287
+      ice cream 2_1: -686691162
+      ice cream 2_2: 1541211256
+      ice cream 2_3: 160898152
+      ice cream 2_4: 456317756
+      ice cream 2_5: -1238432809
+      ice cream 2_6: 1538199743
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

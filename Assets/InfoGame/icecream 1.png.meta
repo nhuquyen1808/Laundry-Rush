@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0ede3ff8be07184eb4c27007a200f5d
+guid: 7a9a1e9f0b68b774992f84eaa8292ef5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 140
+  spritePixelsToUnits: 240
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,19 +107,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -136,79 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Foods_0
+      name: icecream 1_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 1167
-        width: 262
-        height: 232
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82996568b8327fb439189a527559d175
-      internalID: 1735650419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Foods_1
-      rect:
-        serializedVersion: 2
-        x: 407
-        y: 1178
-        width: 217
-        height: 242
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d26e205ed4c862469505d5e698ff9f0
-      internalID: 774849372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Foods_2
-      rect:
-        serializedVersion: 2
-        x: 696
-        y: 1174
-        width: 265
-        height: 237
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 591ebaabe0175c24995a8e698d21ba89
-      internalID: -1787041574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Foods_3
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 863
+        x: 0
+        y: 456
         width: 274
-        height: 187
+        height: 456
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7401ddee602cb4a4abd2676828655df7
-      internalID: -944312731
+      spriteID: bee08698c890dfa41bed6171928b525c
+      internalID: 1470664471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Foods_4
+      name: icecream 1_1
       rect:
         serializedVersion: 2
-        x: 414
-        y: 870
-        width: 223
-        height: 196
+        x: 524
+        y: 426
+        width: 313
+        height: 503
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bb14387c7772414994615e7feb75021
-      internalID: -980173432
+      spriteID: 61ba9d74e7a10784d8bb6b899d61c03a
+      internalID: -544655408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Foods_5
+      name: icecream 1_2
       rect:
         serializedVersion: 2
-        x: 708
-        y: 859
-        width: 246
-        height: 203
+        x: 54
+        y: 3
+        width: 182
+        height: 417
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da0442a5aa8dbd34e8cf72fd446f3fc0
-      internalID: -1214514639
+      spriteID: c6c68c042531c36478ec336f3d559302
+      internalID: -1642808114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Foods_6
+      name: icecream 1_6
       rect:
         serializedVersion: 2
-        x: 78
-        y: 512
-        width: 265
-        height: 218
+        x: 600
+        y: 3
+        width: 164
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,52 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea2857f8a4ecce5408f3cb4c7d90e5b4
-      internalID: 1355990443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Foods_7
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 528
-        width: 264
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52e58d82396f42840b6d3539f992035d
-      internalID: -83829715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Foods_8
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 515
-        width: 227
-        height: 215
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36d73ffb4ff8e88459d8b99b9157fb83
-      internalID: 680300483
+      spriteID: 069b92262af6df14dbd3f737a77342f3
+      internalID: 420248641
       vertices: []
       indices: 
       edges: []
@@ -337,7 +214,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3f560ea6252f1b4479b07a288247fe06
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -349,19 +226,18 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Foods_0: 1735650419
-      Foods_1: 774849372
-      Foods_10: -1905096133
-      Foods_11: 2051158151
-      Foods_12: -664755914
-      Foods_2: -1787041574
-      Foods_3: -944312731
-      Foods_4: -980173432
-      Foods_5: -1214514639
-      Foods_6: 1355990443
-      Foods_7: -83829715
-      Foods_8: 680300483
-      Foods_9: 1446803901
+      icecream 1_0: 1470664471
+      icecream 1_1: -544655408
+      icecream 1_10: -2045199294
+      icecream 1_11: 1564948811
+      icecream 1_2: -1642808114
+      icecream 1_3: 311837646
+      icecream 1_4: 1730259606
+      icecream 1_5: -621020926
+      icecream 1_6: 420248641
+      icecream 1_7: -64237789
+      icecream 1_8: -1045969763
+      icecream 1_9: -1981255968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
