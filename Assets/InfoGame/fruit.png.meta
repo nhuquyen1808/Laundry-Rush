@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89baa5c2f64a4fd4292b0b92f253509b
+guid: 1c82675ad4b3c7545a78e8c92f5bab83
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clock_icon_1_0
+      name: fruit_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 451
-        width: 268
-        height: 300
+        x: 6
+        y: 636
+        width: 246
+        height: 239
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e877377d558d14fb16c86533b6381f
-      internalID: -796041307
+      spriteID: 71fbc1cd4ca0b1443b17868d396839c9
+      internalID: 1487008451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_1
+      name: fruit_1
       rect:
         serializedVersion: 2
-        x: 282
-        y: 662
-        width: 6
-        height: 4
+        x: 366
+        y: 624
+        width: 234
+        height: 251
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7393e359b0ff0434787f610435a22d24
-      internalID: 915538376
+      spriteID: 480e723565d9a2545bcc0c8c4e4b58fc
+      internalID: 1332041959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_2
+      name: fruit_2
       rect:
         serializedVersion: 2
-        x: 330
-        y: 451
-        width: 272
-        height: 300
+        x: 694
+        y: 642
+        width: 258
+        height: 228
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8304f28965a20004db330043e9e178da
-      internalID: 1729161233
+      spriteID: 2b8dcdee5bec32846814239c58de9123
+      internalID: -253357516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_3
+      name: fruit_10
       rect:
         serializedVersion: 2
-        x: 648
-        y: 454
-        width: 270
-        height: 297
+        x: 22
+        y: 288
+        width: 261
+        height: 287
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ff7d675aeb21f340b32f435f6486f12
-      internalID: 479023051
+      spriteID: 4614e98cadf0849448f4ef172dda03f0
+      internalID: 971998616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_6
+      name: fruit_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 294
+        width: 228
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea6a4d7245a5bd4193ce68ecfbb02a2
+      internalID: -1843872852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit_12
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 312
+        width: 283
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7323b48f0d70cd140a15728e6ba593dc
+      internalID: -1416549691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit_14
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 311
-        height: 306
+        width: 276
+        height: 232
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,42 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb108ef8e77b2e5458f977585eba0aad
-      internalID: -1899788263
+      spriteID: 79fa3833356ac4c4c8a38caef953356e
+      internalID: -253662949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_7
+      name: fruit_15
       rect:
         serializedVersion: 2
-        x: 60
-        y: 300
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1671b7b411be4b41a97f500d6b09c01
-      internalID: 1997940360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clock_icon_1_9
-      rect:
-        serializedVersion: 2
-        x: 636
+        x: 336
         y: 0
-        width: 302
-        height: 310
+        width: 264
+        height: 240
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,8 +292,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 816402eea7fccd94c82d64e874806e9c
-      internalID: 559031193
+      spriteID: 4bba5743e791d0841983ac8d5de5150b
+      internalID: -2083328910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit_16
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 311
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b034f3866bc17e42b20619b9ecb727f
+      internalID: -1849898539
       vertices: []
       indices: 
       edges: []
@@ -280,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e88f2450ce767704f9f6429673c08646
+    spriteID: c1c66cfc1304f094e8bd77b0a56517d6
     internalID: 0
     vertices: []
     indices: 
@@ -292,16 +336,23 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Clock_icon_1_0: -796041307
-      Clock_icon_1_1: 915538376
-      Clock_icon_1_2: 1729161233
-      Clock_icon_1_3: 479023051
-      Clock_icon_1_4: 2147207183
-      Clock_icon_1_5: 1274342687
-      Clock_icon_1_6: -1899788263
-      Clock_icon_1_7: 1997940360
-      Clock_icon_1_8: -1420028568
-      Clock_icon_1_9: 559031193
+      fruit_0: 1487008451
+      fruit_1: 1332041959
+      fruit_10: 971998616
+      fruit_11: -1843872852
+      fruit_12: -1416549691
+      fruit_13: -1403181425
+      fruit_14: -253662949
+      fruit_15: -2083328910
+      fruit_16: -1849898539
+      fruit_2: -253357516
+      fruit_3: -1029368140
+      fruit_4: 1939824854
+      fruit_5: 586067232
+      fruit_6: -2068839905
+      fruit_7: 208449384
+      fruit_8: 741986668
+      fruit_9: -843870358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

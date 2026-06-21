@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89baa5c2f64a4fd4292b0b92f253509b
+guid: 03b870937d9505447aee23394446b002
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clock_icon_1_0
+      name: candy_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 451
-        width: 268
-        height: 300
+        x: 13
+        y: 708
+        width: 233
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e877377d558d14fb16c86533b6381f
-      internalID: -796041307
+      spriteID: 5073092b916dd134d86fea391bc0fe38
+      internalID: 143398336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_1
+      name: candy_1
       rect:
         serializedVersion: 2
-        x: 282
-        y: 662
-        width: 6
-        height: 4
+        x: 354
+        y: 720
+        width: 258
+        height: 227
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7393e359b0ff0434787f610435a22d24
-      internalID: 915538376
+      spriteID: db870c60f1c594f4688abffc96c9e437
+      internalID: -1044979647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_2
+      name: candy_2
       rect:
         serializedVersion: 2
-        x: 330
-        y: 451
-        width: 272
-        height: 300
+        x: 708
+        y: 708
+        width: 246
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,42 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8304f28965a20004db330043e9e178da
-      internalID: 1729161233
+      spriteID: d1be2aff6cf75a34daba0e5c13e42445
+      internalID: -1759790409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_3
-      rect:
-        serializedVersion: 2
-        x: 648
-        y: 454
-        width: 270
-        height: 297
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ff7d675aeb21f340b32f435f6486f12
-      internalID: 479023051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clock_icon_1_6
+      name: candy_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 311
-        height: 306
+        y: 384
+        width: 246
+        height: 246
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb108ef8e77b2e5458f977585eba0aad
-      internalID: -1899788263
+      spriteID: c5785baf0a4af424da38e803d051c2c1
+      internalID: -2051344656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_7
+      name: candy_4
       rect:
         serializedVersion: 2
-        x: 60
-        y: 300
-        width: 6
-        height: 6
+        x: 336
+        y: 385
+        width: 270
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1671b7b411be4b41a97f500d6b09c01
-      internalID: 1997940360
+      spriteID: 3e3cf05bff5d058449e4cd6dc1791b78
+      internalID: -1141411456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clock_icon_1_9
+      name: candy_5
       rect:
         serializedVersion: 2
-        x: 636
-        y: 0
-        width: 302
-        height: 310
+        x: 696
+        y: 368
+        width: 281
+        height: 274
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,8 +248,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 816402eea7fccd94c82d64e874806e9c
-      internalID: 559031193
+      spriteID: 113e211ab2a5b1e4da78379fde257825
+      internalID: 1272813658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 284
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82aa8644a0902364a880087c6f9c291e
+      internalID: -792451418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 24
+        width: 270
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10b1e4a6128c48459c9badfcfd32c59
+      internalID: 810736194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy_8
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2
+        width: 222
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20502e8dfe9f97f4db300e2f52c05aa9
+      internalID: 1794714873
       vertices: []
       indices: 
       edges: []
@@ -280,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e88f2450ce767704f9f6429673c08646
+    spriteID: a50db482334e7864db42766728066841
     internalID: 0
     vertices: []
     indices: 
@@ -292,16 +336,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Clock_icon_1_0: -796041307
-      Clock_icon_1_1: 915538376
-      Clock_icon_1_2: 1729161233
-      Clock_icon_1_3: 479023051
-      Clock_icon_1_4: 2147207183
-      Clock_icon_1_5: 1274342687
-      Clock_icon_1_6: -1899788263
-      Clock_icon_1_7: 1997940360
-      Clock_icon_1_8: -1420028568
-      Clock_icon_1_9: 559031193
+      candy_0: 143398336
+      candy_1: -1044979647
+      candy_2: -1759790409
+      candy_3: -2051344656
+      candy_4: -1141411456
+      candy_5: 1272813658
+      candy_6: -792451418
+      candy_7: 810736194
+      candy_8: 1794714873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
