@@ -179,7 +179,7 @@ public class GameDataLoader : MonoBehaviour
         {
             Debug.Log("Mở URL: " + d.url);
 #if UNITY_EDITOR
-            Application.OpenURL(d.url);
+            //Application.OpenURL(d.url);
 #endif
             // chú ý: Application.OpenURL hoạt động trong Editor và build
             // Application.OpenURL(d.url);
