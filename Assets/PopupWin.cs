@@ -30,6 +30,13 @@ public  class PopupWin : MonoBehaviour
         PlayerPrefs.SetInt("coin", coin); 
         CoinBar.instance.UpdateCoinText();
         PlayerPrefs.SetInt("CurrentLevel",currentlevel);
+
+        ScoreApiService.Instance.SubmitGameResult("Sweet Sort",
+     PlayerPrefs.GetInt("CurrentLevel"),
+     PlayerPrefs.GetInt("coin"),
+     10, 10,
+     new ScoreMetadata { duration = 100, enemyKilled = 10 });
+
         Scene scene = SceneManager.GetActiveScene();
         ManagerSceneDuck.ins.LoadScene(scene.name);
     }

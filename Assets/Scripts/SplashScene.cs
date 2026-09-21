@@ -15,7 +15,8 @@ namespace DevDuck
             AudioManager.instance.PlayBGMSound("BG");
             fillImage.DOFillAmount(1, 3f).SetEase(Ease.InOutBack).OnComplete(() =>
             {
-                ManagerSceneDuck.ins.LoadScene("ClothesSort");
+                ManagerSceneDuck.ins.LoadScene("MainMenu");
+               // ClothesSort
             });
         }
     }

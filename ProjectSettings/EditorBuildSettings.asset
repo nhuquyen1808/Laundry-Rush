@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SplashScene.unity
     guid: 06d54b8d165032d4089ce4de4e3d6216
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8edbec15b2a96ba41923f094ba466f87
+  - enabled: 1
     path: Assets/Scenes/ClothesSort.unity
     guid: ab7b9adf22027ad44970e8bc3726c730
   - enabled: 1
@@ -17,3 +20,4 @@ EditorBuildSettings:
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 1c315b97763fc5548a7b556a9209ac77,
       type: 2}
+  m_UseUCBPForAssetBundles: 0
