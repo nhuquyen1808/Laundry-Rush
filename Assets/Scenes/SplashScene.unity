@@ -1112,7 +1112,7 @@ GameObject:
   - component: {fileID: 550017149}
   - component: {fileID: 550017148}
   m_Layer: 5
-  m_Name: sts_pack_6
+  m_Name: csc_pack_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_6
+  key: csc_pack_6
   coinReceive: 50000
   txtPrice: {fileID: 1390832778}
   txtCoin: {fileID: 1989905494}
@@ -1851,7 +1851,7 @@ GameObject:
   - component: {fileID: 979570398}
   - component: {fileID: 979570397}
   m_Layer: 5
-  m_Name: sts_pack_5
+  m_Name: csc_pack_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1891,7 +1891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_5
+  key: csc_pack_5
   coinReceive: 30000
   txtPrice: {fileID: 1769837533}
   txtCoin: {fileID: 1542126054}
@@ -2004,7 +2004,7 @@ GameObject:
   - component: {fileID: 1041037924}
   - component: {fileID: 1041037923}
   m_Layer: 5
-  m_Name: sts_pack_4
+  m_Name: csc_pack_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2044,7 +2044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_4
+  key: csc_pack_4
   coinReceive: 10000
   txtPrice: {fileID: 195055666}
   txtCoin: {fileID: 362007756}
@@ -3185,7 +3185,7 @@ GameObject:
   - component: {fileID: 1519618342}
   - component: {fileID: 1519618341}
   m_Layer: 5
-  m_Name: sts_pack_8
+  m_Name: csc_pack_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3225,7 +3225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_8
+  key: csc_pack_8
   coinReceive: 150000
   txtPrice: {fileID: 645305800}
   txtCoin: {fileID: 393744014}
@@ -3417,7 +3417,7 @@ GameObject:
   - component: {fileID: 1547153058}
   - component: {fileID: 1547153057}
   m_Layer: 5
-  m_Name: sts_pack_2
+  m_Name: csc_pack_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3457,7 +3457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_2
+  key: csc_pack_2
   coinReceive: 3000
   txtPrice: {fileID: 1228727561}
   txtCoin: {fileID: 559337677}
@@ -3721,7 +3721,7 @@ GameObject:
   - component: {fileID: 1646671299}
   - component: {fileID: 1646671298}
   m_Layer: 5
-  m_Name: sts_pack_3
+  m_Name: csc_pack_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3761,7 +3761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_3
+  key: csc_pack_3
   coinReceive: 5000
   txtPrice: {fileID: 1956969134}
   txtCoin: {fileID: 1745020999}
@@ -3874,7 +3874,7 @@ GameObject:
   - component: {fileID: 1648867130}
   - component: {fileID: 1648867129}
   m_Layer: 5
-  m_Name: sts_pack_9
+  m_Name: csc_pack_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3914,7 +3914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_9
+  key: csc_pack_9
   coinReceive: 200000
   txtPrice: {fileID: 1677579635}
   txtCoin: {fileID: 1702611701}
@@ -4390,7 +4390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1746609501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4920,7 +4920,7 @@ GameObject:
   - component: {fileID: 2140738522}
   - component: {fileID: 2140738521}
   m_Layer: 5
-  m_Name: sts_pack_7
+  m_Name: csc_pack_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4960,7 +4960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_7
+  key: csc_pack_7
   coinReceive: 100000
   txtPrice: {fileID: 1218263425}
   txtCoin: {fileID: 410179354}
@@ -5478,7 +5478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a949a1266d1144d8606ac695a5de83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: sts_pack_1
+  key: csc_pack_1
   coinReceive: 1000
   txtPrice: {fileID: 5280502113903606787}
   txtCoin: {fileID: 4614848052985780233}
@@ -6487,7 +6487,7 @@ GameObject:
   - component: {fileID: 3334846908674368373}
   - component: {fileID: 1716750563230894901}
   m_Layer: 5
-  m_Name: sts_pack_1
+  m_Name: csc_pack_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6959,29 +6959,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dontDestroyOnLoad: 1
-  primaryKEY: sts
+  primaryKEY: csc
   amount: 9
   lstKeyCode:
-  - key: sts_pack_1
+  - key: csc_pack_1
     productType: 0
-  - key: sts_pack_2
+  - key: csc_pack_2
     productType: 0
-  - key: sts_pack_3
+  - key: csc_pack_3
     productType: 0
-  - key: sts_pack_4
+  - key: csc_pack_4
     productType: 0
-  - key: sts_pack_5
+  - key: csc_pack_5
     productType: 0
-  - key: sts_pack_6
+  - key: csc_pack_6
     productType: 0
-  - key: sts_pack_7
+  - key: csc_pack_7
     productType: 0
-  - key: sts_pack_8
+  - key: csc_pack_8
     productType: 0
-  - key: sts_pack_9
+  - key: csc_pack_9
     productType: 0
-  GameID: com.SortSweet.SortTheSweet
-  GameName: Sort The Sweet
+  GameID: com.CandyShape.CandyShapeCatch
+  GameName: Candy Shape Catch
 --- !u!114 &8762773378619008428
 MonoBehaviour:
   m_ObjectHideFlags: 0

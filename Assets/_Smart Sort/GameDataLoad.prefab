@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f3217074c405641a8cf5e11178ea69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonUrl: https://api2.blwsmartware.net/S141.json
+  jsonUrl: https://api2.blwsmartware.net/S247.json
   uiName: {fileID: 663059232776838751}
   packageID: {fileID: 4275519268298420291}
   IDText: {fileID: 9208668715449399005}
