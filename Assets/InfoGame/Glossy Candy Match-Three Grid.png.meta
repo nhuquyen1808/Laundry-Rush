@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4b8774c44a87b2e4a95503378035070b
+guid: 1fca235bb16013b4db255352a3070b8d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 240
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ice cream 2_0
+      name: Glossy Candy Match-Three Grid_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 462
-        width: 190
-        height: 420
+        x: 0
+        y: 686
+        width: 373
+        height: 307
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,74 +138,184 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d1f8511556773b4b9ce9acaebf01a52
-      internalID: -1704094287
+      spriteID: 8fab9dcda52f6c04ca2b486b1940231d
+      internalID: 765769839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ice cream 2_1
+      name: Glossy Candy Match-Three Grid_1
       rect:
         serializedVersion: 2
-        x: 23
+        x: 421
+        y: 682
+        width: 387
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f2e3ffea3b9fc4280288c76233e631
+      internalID: 1001201397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Candy Match-Three Grid_2
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 681
+        width: 385
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7842fcb24a79a45bd0cad59a677b5d
+      internalID: 49958092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Candy Match-Three Grid_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 376
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ef9ffa38a974d4ba346e4ec934d0ab
+      internalID: -321366443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Candy Match-Three Grid_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 332
+        width: 384
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaafbde8421e084294808b62bd00024
+      internalID: -641090975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Candy Match-Three Grid_5
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 333
+        width: 378
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b6694feb8aeb348bf5ab29d98b249a
+      internalID: 2123375075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Candy Match-Three Grid_6
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 151
-        height: 401
+        width: 382
+        height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6cf8a9834e28cb4b96ade32ea6aa76d
-      internalID: -686691162
+      spriteID: cb3eeaedda072a44789633a71e2d379b
+      internalID: -1893920445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ice cream 2_5
+      name: Glossy Candy Match-Three Grid_7
       rect:
         serializedVersion: 2
-        x: 496
-        y: 466
-        width: 218
-        height: 419
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84c5b7bc05b776d4a8c0b2dcd349884d
-      internalID: -1238432809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ice cream 2_6
-      rect:
-        serializedVersion: 2
-        x: 534
+        x: 426
         y: 0
-        width: 150
-        height: 404
+        width: 383
+        height: 306
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b909f6abe6804441b5e08e7c580af9e
-      internalID: 1538199743
+      spriteID: dbe156281e7334740a97a55e44d385a7
+      internalID: 2135480988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Candy Match-Three Grid_8
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 0
+        width: 383
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353da6a9fb9bb854bb0b8b85d355045d
+      internalID: -1300413430
       vertices: []
       indices: 
       edges: []
@@ -214,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 90e4f419d6b5f3c4f83f504893cbdbdd
     internalID: 0
     vertices: []
     indices: 
@@ -226,13 +336,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      ice cream 2_0: -1704094287
-      ice cream 2_1: -686691162
-      ice cream 2_2: 1541211256
-      ice cream 2_3: 160898152
-      ice cream 2_4: 456317756
-      ice cream 2_5: -1238432809
-      ice cream 2_6: 1538199743
+      Glossy Candy Match-Three Grid_0: 765769839
+      Glossy Candy Match-Three Grid_1: 1001201397
+      Glossy Candy Match-Three Grid_2: 49958092
+      Glossy Candy Match-Three Grid_3: -321366443
+      Glossy Candy Match-Three Grid_4: -641090975
+      Glossy Candy Match-Three Grid_5: 2123375075
+      Glossy Candy Match-Three Grid_6: -1893920445
+      Glossy Candy Match-Three Grid_7: 2135480988
+      Glossy Candy Match-Three Grid_8: -1300413430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
