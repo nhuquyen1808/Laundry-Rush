@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: a0265bb02a035f14b9be0aac9117c09d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 170
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 372
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f367e3f0f777f2e4aa65ed5afda66df2
+      internalID: 1228057484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 777
+        width: 378
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e123411de617594088d7b2c5ac870a9
+      internalID: 167706350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_2
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 803
+        width: 429
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3546958cf1b9bff43981b8004da9816c
+      internalID: -1214044183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 388
+        width: 295
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc4e4ad55a4d964dab72a47e0fa306d
+      internalID: -1473339492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_4
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 410
+        width: 432
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ba57ec6909a3740a1a912a10484936
+      internalID: 1512061367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_5
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 376
+        width: 406
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d940af4bc180ff64599986bbf99dff50
+      internalID: -957575208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_6
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 7
+        width: 430
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b464dbb2454b0d4db91decccd74fab2
+      internalID: 865240483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 352
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ba9f042060f4241a931e487f12169c
+      internalID: -1106701305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Sports Sticker Grid_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 371
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de04620fa74daa44b938f106f2c26464
+      internalID: -786199045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Colorful Sports Sticker Grid_0: 1228057484
+      Colorful Sports Sticker Grid_1: 167706350
+      Colorful Sports Sticker Grid_10: 1507319388
+      Colorful Sports Sticker Grid_11: -279335418
+      Colorful Sports Sticker Grid_12: -1527074995
+      Colorful Sports Sticker Grid_13: 1443089781
+      Colorful Sports Sticker Grid_14: 1128539399
+      Colorful Sports Sticker Grid_15: -1171016524
+      Colorful Sports Sticker Grid_16: -286596468
+      Colorful Sports Sticker Grid_17: 133653155
+      Colorful Sports Sticker Grid_18: 1711385409
+      Colorful Sports Sticker Grid_19: -158394220
+      Colorful Sports Sticker Grid_2: -1214044183
+      Colorful Sports Sticker Grid_20: -1641141068
+      Colorful Sports Sticker Grid_21: -1495529680
+      Colorful Sports Sticker Grid_22: 1144516385
+      Colorful Sports Sticker Grid_23: 1791509564
+      Colorful Sports Sticker Grid_24: -1749023970
+      Colorful Sports Sticker Grid_25: -1379478162
+      Colorful Sports Sticker Grid_26: 778434590
+      Colorful Sports Sticker Grid_27: -827346055
+      Colorful Sports Sticker Grid_28: -197548010
+      Colorful Sports Sticker Grid_29: -1543614820
+      Colorful Sports Sticker Grid_3: -1473339492
+      Colorful Sports Sticker Grid_30: 876984440
+      Colorful Sports Sticker Grid_31: -1205907027
+      Colorful Sports Sticker Grid_32: 482871078
+      Colorful Sports Sticker Grid_33: 975602908
+      Colorful Sports Sticker Grid_34: 1874724727
+      Colorful Sports Sticker Grid_35: -1608774649
+      Colorful Sports Sticker Grid_36: -56489359
+      Colorful Sports Sticker Grid_37: -1902297983
+      Colorful Sports Sticker Grid_38: 1660303288
+      Colorful Sports Sticker Grid_4: 1512061367
+      Colorful Sports Sticker Grid_5: -957575208
+      Colorful Sports Sticker Grid_6: 865240483
+      Colorful Sports Sticker Grid_7: -1106701305
+      Colorful Sports Sticker Grid_8: -786199045
+      Colorful Sports Sticker Grid_9: 783651513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 9dce4ddbfb2d1374bb0cbfb98b239db5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 170
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_3
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 838
+        width: 387
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c1b3d47bba8774386eb4f1c55dde1b
+      internalID: -1159051590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 415
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6405ce02256e2bd4b8eea309b93b4866
+      internalID: -333183904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_8
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 839
+        width: 391
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b1541c633ba054199ad5cf67833f78
+      internalID: -2054569717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 441
+        width: 385
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6e1ab78ff8c7a49b29c2ece8b95dd3
+      internalID: -1940031679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_10
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 439
+        width: 394
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd66087e30abbd14ca82de1d476a0c47
+      internalID: 2092637687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_14
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 36
+        width: 387
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058505fb3824b6649908d2874bea2bfe
+      internalID: 2004875554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_17
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 35
+        width: 391
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f29aa94c7230dc4c862fb2ae1d16f44
+      internalID: 775915603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_21
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 33
+        width: 385
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec64604178361b347b282f00a98e789a
+      internalID: 1094265880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful Cartoon Ball Sticker Grid_0
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 442
+        width: 384
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3b48229ebd0a341bf207cca4cd5739
+      internalID: -906073712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Colorful Cartoon Ball Sticker Grid_0: -906073712
+      Colorful Cartoon Ball Sticker Grid_1: -783796878
+      Colorful Cartoon Ball Sticker Grid_10: 2092637687
+      Colorful Cartoon Ball Sticker Grid_11: 1514183617
+      Colorful Cartoon Ball Sticker Grid_12: 922480389
+      Colorful Cartoon Ball Sticker Grid_13: -2139135601
+      Colorful Cartoon Ball Sticker Grid_14: 2004875554
+      Colorful Cartoon Ball Sticker Grid_15: -1065556747
+      Colorful Cartoon Ball Sticker Grid_16: 1565462437
+      Colorful Cartoon Ball Sticker Grid_17: 775915603
+      Colorful Cartoon Ball Sticker Grid_18: -1448165259
+      Colorful Cartoon Ball Sticker Grid_19: -133817692
+      Colorful Cartoon Ball Sticker Grid_2: 1219031197
+      Colorful Cartoon Ball Sticker Grid_20: -1120955096
+      Colorful Cartoon Ball Sticker Grid_21: 1094265880
+      Colorful Cartoon Ball Sticker Grid_22: -1335204534
+      Colorful Cartoon Ball Sticker Grid_23: 1445673617
+      Colorful Cartoon Ball Sticker Grid_24: 1882195038
+      Colorful Cartoon Ball Sticker Grid_25: 358906253
+      Colorful Cartoon Ball Sticker Grid_26: -1029963497
+      Colorful Cartoon Ball Sticker Grid_27: -1360089119
+      Colorful Cartoon Ball Sticker Grid_28: -594635540
+      Colorful Cartoon Ball Sticker Grid_29: 1598954245
+      Colorful Cartoon Ball Sticker Grid_3: -1159051590
+      Colorful Cartoon Ball Sticker Grid_30: 957217927
+      Colorful Cartoon Ball Sticker Grid_31: -539820200
+      Colorful Cartoon Ball Sticker Grid_4: 1847238833
+      Colorful Cartoon Ball Sticker Grid_5: 362272662
+      Colorful Cartoon Ball Sticker Grid_6: 1329581728
+      Colorful Cartoon Ball Sticker Grid_7: -333183904
+      Colorful Cartoon Ball Sticker Grid_8: -2054569717
+      Colorful Cartoon Ball Sticker Grid_9: -1940031679
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -39,8 +39,8 @@ namespace DevDuck
         int target;
         public LevelDataGame levelDataGame;
         
-        public List<Sprite>  letterSprList = new List<Sprite>();
-        public List<Sprite>  numbersSprList = new List<Sprite>();
+        public List<Sprite>  RightSprList = new List<Sprite>();
+        public List<Sprite>  leftSprList = new List<Sprite>();
 
         private void Awake()
         {
@@ -268,13 +268,13 @@ namespace DevDuck
 
         public Sprite GetLetterSpr()
         {
-            int index = Random.Range(0, letterSprList.Count);
-            return letterSprList[index];
+            int index = Random.Range(0, RightSprList.Count);
+            return RightSprList[index];
         }
         public Sprite GetNumberSpr()
         {
-            int index = Random.Range(0, numbersSprList.Count);
-            return numbersSprList[index];
+            int index = Random.Range(0, leftSprList.Count);
+            return leftSprList[index];
         }
     }
 }
